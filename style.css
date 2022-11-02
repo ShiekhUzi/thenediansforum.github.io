@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&display=swap');
+/* .navbar{
+    min-height: 30px;
+    max-height: 90px;
+    height: 55px;
+    width: 100%;
+    min-width: 720px;
+    max-width: 7680px;
+
+}
+.navbtns{
+    color: #0466c8;
+
+}
+.navimg{
+    width: 55px;
+    min-width: 40px;
+    max-width: 80px;
+}
+.navlinks{
+    display: inline-block;
+    line-height: 55px;
+} */
+.navlogo{
+    width: 65px;
+    
+}
+.tnfnavlogo{
+    transition: 0.50s;
+    transition-duration: 0.50s;
+    transition-delay: 0.25s;
+    transition-property: opacity;
+    transition-timing-function: revert;
+}
+.tnfnavlogo:hover{
+    animation-name: opfade;
+    animation-duration: 0.50s;
+    animation-fill-mode: alternate;
+    opacity: 0.5;
+   
+
+}
+@keyframes opfade{
+    from{
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+@keyframes unfade{
+    from{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.tnflogo{
+    font-family: 'Lora', serif;
+}
+.whitespace{
+    height: fit-content;
+}
+    /* .nedfrstpic{
+        width: 1385px;
+        min-width: 576px;
+        max-width: 3040px;
+    } */
